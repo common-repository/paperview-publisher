@@ -1,0 +1,407 @@
+# Copyright (C) 2021 Paperview Systems
+# This file is distributed under the same license as the Paperview Publisher plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Paperview Publisher 0.8.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/paperview-publisher\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-03-21T19:40:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: paperview-publisher\n"
+
+#. Plugin Name of the plugin
+#: admin_menu.php:13
+msgid "Paperview Publisher"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://paperview.net/paperview-publisher-plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin to automate the tasks for a Publisher."
+msgstr ""
+
+#. Author of the plugin
+msgid "Paperview Systems"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://paperview.net"
+msgstr ""
+
+#: admin_menu.php:13
+msgid "Name"
+msgstr ""
+
+#: admin_menu.php:41
+#: admin_menu.php:105
+msgid "Paperview Publisher settings"
+msgstr ""
+
+#: admin_menu.php:42
+msgid "Publisher settings"
+msgstr ""
+
+#: admin_menu.php:50
+msgid "Paperview Publication packs"
+msgstr ""
+
+#: admin_menu.php:51
+msgid "Publication packs"
+msgstr ""
+
+#: admin_menu.php:117
+#: admin_menu.php:120
+msgid "Paperview environment"
+msgstr ""
+
+#: admin_menu.php:124
+msgid "Connect to Paperview sandbox"
+msgstr ""
+
+#: admin_menu.php:130
+msgid "Publication ID"
+msgstr ""
+
+#: admin_menu.php:133
+msgid "Please enter the unique ID for this Publication"
+msgstr ""
+
+#: admin_menu.php:137
+msgid "Publication API key"
+msgstr ""
+
+#: admin_menu.php:146
+msgid "Link to Publication on Paperview"
+msgstr ""
+
+#: admin_menu.php:153
+msgid "Default User ID for article authors"
+msgstr ""
+
+#: admin_menu.php:156
+msgid "Please enter the Paperview User ID with which your articles should be associated by default.<br/>If the WordPress user (or the current user) has an associated Paperview User ID, that one will be used instead.<br/>If this is left blank, no default Paperview User ID will be assumed."
+msgstr ""
+
+#: admin_menu.php:160
+msgid "Default transaction type"
+msgstr ""
+
+#: admin_menu.php:170
+#: admin_menu.php:173
+msgid "Article protection"
+msgstr ""
+
+#: admin_menu.php:177
+msgid "By default, activate Paperview in new articles"
+msgstr ""
+
+#: admin_menu.php:183
+msgid "Save articles with content gibberish"
+msgstr ""
+
+#: admin_menu.php:189
+msgid "Save articles with paywall invoker script"
+msgstr ""
+
+#: admin_menu.php:198
+msgid "Available for these post types"
+msgstr ""
+
+#: admin_menu.php:214
+msgid "Available for these post statuses"
+msgstr ""
+
+#: admin_menu.php:230
+msgid "Pack URL slug"
+msgstr ""
+
+#: admin_menu.php:234
+msgid "Please enter the URL identifier slug to be used for Packs."
+msgstr ""
+
+#. translators: 1: example URL
+#: admin_menu.php:238
+msgid "Example URL: %s"
+msgstr ""
+
+#. translators: refresh permalinks link
+#: admin_menu.php:244
+msgctxt "permalink refresh"
+msgid "If you change this field, you may have to %s."
+msgstr ""
+
+#: admin_menu.php:245
+msgctxt "permalink refresh"
+msgid "refresh permalinks"
+msgstr ""
+
+#: admin_menu.php:254
+#: admin_menu.php:257
+msgid "Plugin uninstall"
+msgstr ""
+
+#: admin_menu.php:261
+msgid "Remove plugin data when uninstalling"
+msgstr ""
+
+#: admin_menu.php:264
+msgid "When checked, this plugin's data (including contents stored in clear text) will be removed if this plugin is uninstalled."
+msgstr ""
+
+#: admin_menu.php:266
+msgid "Be aware that this removal is irreversible! Backup your data first!"
+msgstr ""
+
+#: admin_menu.php:274
+msgid "Save settings"
+msgstr ""
+
+#: admin_menu.php:303
+#: admin_menu.php:529
+msgid "Invalid nonce specified"
+msgstr ""
+
+#: admin_menu.php:304
+#: admin_menu.php:530
+msgid "Error"
+msgstr ""
+
+#: admin_menu.php:411
+msgid "Publication ID or API key are missing."
+msgstr ""
+
+#: admin_menu.php:419
+msgid "Successfully linked to Paperview Publication."
+msgstr ""
+
+#: admin_menu.php:424
+msgid "Publication not found."
+msgstr ""
+
+#: admin_menu.php:431
+msgid "Changes saved."
+msgstr ""
+
+#: admin_menu.php:467
+#: hooks_admin.php:291
+msgid "Packs"
+msgstr ""
+
+#: admin_menu.php:473
+msgid "Active packs"
+msgstr ""
+
+#: admin_menu.php:490
+msgid "Previous packs"
+msgstr ""
+
+#: article_utils.php:26
+msgid "Free (logged in)"
+msgstr ""
+
+#: article_utils.php:27
+msgid "Optional payment"
+msgstr ""
+
+#: article_utils.php:28
+msgid "Purchase"
+msgstr ""
+
+#: article_utils.php:29
+msgid "Subscribers only"
+msgstr ""
+
+#: hooks_admin.php:131
+msgid "Paperview options"
+msgstr ""
+
+#: hooks_admin.php:166
+msgid "You need to configure the Paperview Publisher plugin first."
+msgstr ""
+
+#. translators: 1: link to config page
+#: hooks_admin.php:170
+msgid "You can find the configuration page %s."
+msgstr ""
+
+#: hooks_admin.php:173
+msgid "here"
+msgstr ""
+
+#: hooks_admin.php:275
+#: hooks_admin.php:278
+msgid "Activate Paperview"
+msgstr ""
+
+#: hooks_admin.php:283
+msgid "When checked, this content will be processed by Paperview when saving."
+msgstr ""
+
+#: hooks_admin.php:300
+msgid "No available packs."
+msgstr ""
+
+#: hooks_admin.php:307
+msgid "Price"
+msgstr ""
+
+#: hooks_admin.php:316
+msgid "Transaction type"
+msgstr ""
+
+#: hooks_admin.php:324
+msgid "Article ID"
+msgstr ""
+
+#: hooks_admin.php:330
+msgid "Enter only if you want to link this post with a Paperview article that already exists."
+msgstr ""
+
+#: hooks_admin.php:332
+msgid "Otherwise, leave this field blank, and it will be automatically filled out for you."
+msgstr ""
+
+#: hooks_admin.php:334
+msgid "If you fill this field with a Paperview article ID, this post will reflect that article; any text you have entered will be lost."
+msgstr ""
+
+#: hooks_admin.php:339
+msgid "Sync with Paperview"
+msgstr ""
+
+#: hooks_admin.php:381
+#: hooks_admin.php:497
+msgid "Paperview Publisher plugin not configured. Article not saved."
+msgstr ""
+
+#: hooks_admin.php:518
+msgid "Paperview User ID not configured. Article not saved."
+msgstr ""
+
+#: hooks_admin.php:653
+msgid "Error saving Paperview article."
+msgstr ""
+
+#: hooks_admin.php:787
+msgid "Settings"
+msgstr ""
+
+#: paperview__top_level_admin_menu.php:17
+#: paperview__top_level_admin_menu.php:18
+msgid "Paperview"
+msgstr ""
+
+#: paperview__top_level_admin_menu.php:28
+#: paperview__top_level_admin_menu.php:55
+msgid "Paperview status"
+msgstr ""
+
+#: paperview__top_level_admin_menu.php:29
+msgid "Status"
+msgstr ""
+
+#: paperview__top_level_admin_menu.php:49
+msgid "OK"
+msgstr ""
+
+#: paperview__top_level_admin_menu.php:52
+msgid "not working"
+msgstr ""
+
+#: paperview__top_level_admin_menu.php:57
+msgid "API"
+msgstr ""
+
+#. translators: 1: status of API connection
+#: paperview__top_level_admin_menu.php:62
+msgid "Connection to the Paperview API is %s."
+msgstr ""
+
+#: paperview__top_level_admin_menu.php:76
+msgid "Paperview plugins"
+msgstr ""
+
+#: taxonomies.php:33
+msgid "Paperview Packs"
+msgstr ""
+
+#: taxonomies.php:34
+msgctxt "taxonomy general name"
+msgid "Paperview Packs"
+msgstr ""
+
+#: taxonomies.php:35
+msgctxt "taxonomy singular name"
+msgid "Pack"
+msgstr ""
+
+#: taxonomies.php:36
+msgid "Search Packs"
+msgstr ""
+
+#: taxonomies.php:37
+msgid "Popular Packs"
+msgstr ""
+
+#: taxonomies.php:38
+msgid "All Packs"
+msgstr ""
+
+#: taxonomies.php:41
+msgid "Edit Pack"
+msgstr ""
+
+#: taxonomies.php:42
+msgid "View Pack"
+msgstr ""
+
+#: taxonomies.php:43
+msgid "Update Pack"
+msgstr ""
+
+#: taxonomies.php:44
+msgid "Add New Pack"
+msgstr ""
+
+#: taxonomies.php:45
+msgid "New Pack Name"
+msgstr ""
+
+#: taxonomies.php:46
+msgid "Separate packs with commas"
+msgstr ""
+
+#: taxonomies.php:47
+msgid "Add or remove packs"
+msgstr ""
+
+#: taxonomies.php:48
+msgid "Choose from the most used packs"
+msgstr ""
+
+#: taxonomies.php:49
+msgid "No packs found"
+msgstr ""
+
+#: taxonomies.php:50
+msgid "No packs"
+msgstr ""
+
+#: user_info.php:77
+msgid "Paperview User settings"
+msgstr ""
+
+#: user_info.php:80
+msgid "Paperview User ID"
+msgstr ""
+
+#: user_info.php:83
+msgid "Please enter the Paperview User ID"
+msgstr ""

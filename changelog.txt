@@ -1,0 +1,116 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [0.8.6] - 2024-04-03
+- Version bump.
+
+## [0.8.5] - 2022-07-13
+- Version bump.
+
+## [0.8.4] - 2022-06-27
+- Version bump.
+
+## [0.8.3] - 2021-03-24
+### Fixed
+- Paperview Pack taxonomy slugs were not being updated when the pack's name was changed.
+
+## [0.8.2.1] - 2021-03-21
+### Fixed
+- Minor issue with Paperview API URL.
+
+## [0.8.2] - 2021-03-20
+### Changed
+- Paperview Publisher Editions are now Paperview Publisher Packs.
+
+## [0.8.1] - 2021-03-13
+### Fixed
+- WordPress shortcodes are now supported.
+
+## [0.8.0] - 2021-03-10
+### Added
+- Ability to configure the post statuses that should be sent to Paperview.
+- Ability to configure whether posts should be sent to Paperview by default.
+- Schedule for updating the link to the Paperview Publication, if any.
+- Schedule for fetching the Publication's latest packs (still needs some more work, though!).
+- Ability to select the packs in which an article should be available. (more of this in the next few days!)
+### Changed
+- Major reconfiguration of the Paperview data store. It should now be more lightweight, and have minimal impact on the WordPress core tables.
+### Fixed
+- The "Sync article" feature didn't synchronize the article's gibberish content, only its metadata (price, paywall availability, etc.).
+
+## [0.7.14] - 2021-02-05
+### Fixed
+- Fix for the previous bug fix. My bad!
+
+## [0.7.13] - 2021-02-05
+### Fixed
+- A freakish bug that involved the timings for initializing the TinyMCE editor: sometimes the unencrypted content would not show up on the editor. Hoperfully fixed.
+
+## [0.7.12] - 2021-02-04
+### Fixed
+- Correction for another PHP problem regarding the supported post types. It should now be 100%.
+
+## [0.7.11] - 2021-01-30
+### Fixed
+- Correction for a PHP warning regarding the supported post types.
+
+## [0.7.10] - 2020-12-11
+### Fixed
+- Minor correction to Paperview API URL.
+
+## [0.7.9] - 2020-12-09
+### Changed
+- Version bump for WordPress 5.6.
+
+## [0.7.8] - 2020-11-05
+### Added
+- More configuration options, including one to allow connecting to the Sandbox.
+### Changed
+- Changed the Paperview API URL to address its new versioning schema.
+- Improved some UI strings.
+
+## [0.7.7] - 2020-09-24
+### Fixed
+- Content that was scheduled to be published was not being protected.
+
+## [0.7.6] - 2020-08-22
+### Added
+- Support for custom post types.
+
+## [0.7.5] - 2020-08-20
+### Changed
+- The URL to the Paperview API server is now written in stone. The old URL will continue to work for a few days, but eventually it will be phased out.
+
+## [0.7.4] - 2020-08-12
+### Changed
+- Compatibility with WordPress 5.5.
+### Fixed
+- A minor translation bug in the plugin options page.
+
+## [0.7.3] - 2020-07-31
+### Added
+- Released to WordPress Plugin Directory.
+### Fixed
+- Some under-the-hood improvements to the code (kudos to the WordPress Plugin Review team!).
+
+## [0.7.2] - 2020-07-24
+### Added
+- Configuration option: default paywall availability.
+### Fixed
+- Corrected javascript bug that occurred when the Classic Editor was being used (with the WordPress plugin).
+- Texts in Portuguese now display correctly.
+
+## [0.7.1] - 2020-07-22
+### Added
+- Configuration option: default user to associate to articles.
+### Changed
+- The Paperview User that is associated to an Article is now determined by: 1) article author; 2) current user; and 3) default user (in this order).
+
+## [0.7.0] - 2020-05-18
+### Added
+- Initial release.
